@@ -12,4 +12,5 @@ public interface LeakStack<E> {
     E top();
 
     E pop();
+
 }
