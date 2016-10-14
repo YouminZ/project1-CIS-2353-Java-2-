@@ -1,12 +1,16 @@
 /**
+ * Demo to run the leaky stack using a circular array as
+ * the data structure.
+ *
  * Created by Youmin on 10/12/2016.
  */
-public class Main {
+public class ArrayStackDemo {
     public static void main(String[] args) {
-        LeakyArrayStack<Integer> leakyIntStack = new LeakyArrayStack<Integer>(10);
+        //create a leaky array stack with given capacity
+        LeakyArrayStack<Integer> leakyIntStack = new LeakyArrayStack<Integer>(15);
 
         //adds 1~n into the array stack
-        for(int i = 0; i < 15; i++){
+        for(int i = 0; i < 120; i++){
             leakyIntStack.push(i+1);
         }
 /*      leakyIntStack.push(1);
@@ -25,14 +29,20 @@ public class Main {
         leakyIntStack.push(14);
         leakyIntStack.push(15);*/
 
-
+        //prints the top element of the stack and size of the stack before popping
         System.out.println("Top of stack is " + leakyIntStack.top() + " with a size of " + leakyIntStack.size());
 
-        for(int i = 0; i < 10; i++){
-            //System.out.println(leakyIntStack.size());
-            System.out.println(leakyIntStack.pop());            //pops top element
-        }
+        //pops all of the element from the stack until its empty
+        while(!leakyIntStack.isEmpty()){
+            System.out.println("[" + leakyIntStack.pop() + "]");            //pops top element
+        }//end while loop
 
+/*        //pops 1~n elements from the stack
+        for(int i = 0; i < 10; i++){
+            System.out.println("[" + leakyIntStack.pop() + "]");            //pops top element
+        }//end for loop*/
+
+        //prints the top element of stack and size of the stack after popping
         System.out.println("Top of stack is " + leakyIntStack.top() + " with a size of " + leakyIntStack.size());
     }//end main
 }

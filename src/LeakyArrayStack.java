@@ -1,20 +1,26 @@
 /**
+ * A collection of objects that are inserted and removed according
+ * to the last-in first-out principle. Although similar in purpose,
+ * this interface differs from java.util.Stack.
+ *
  * Created by Youmin on 10/12/2016.
  */
 public class LeakyArrayStack<E> implements LeakStack<E> {
 
-    public static final int CAPACITY = 50;
-    private E[] data;
-    private int s = 0;
-    private int t = -1;
+    public static final int CAPACITY = 50;          //default array capacity
+    private E[] data;                               //generic array ready to be used as storage
+    private int s = 0;                              //holds the size of the array
+    private int t = -1;                             //index for the top of the stack
+
+    //constructor to make a leaky array stack with default capacity
     public LeakyArrayStack() {
         this(CAPACITY);
-    }//end constructor to make default array size
+    }//end constructor
 
+    //constructor to make a array stack with given capacity
     public LeakyArrayStack(int capacity){
         data = (E[]) new Object[capacity];
-    }//end constructor taking args
-
+    }//end constructor
 
     @Override
     public int size(){
@@ -28,8 +34,8 @@ public class LeakyArrayStack<E> implements LeakStack<E> {
 
     @Override
     public void push(E e){
-        data[t = (t+1)%data.length] = e;
-        if(s < data.length){
+        data[t = (t+1)%data.length] = e;            //algorithm to make the array a circular array wrap around the length of the array
+        if(s < data.length){                        //maxes the sizes counter to the maximum array size
             s++;
         }
     }//end push
@@ -39,10 +45,6 @@ public class LeakyArrayStack<E> implements LeakStack<E> {
         if(isEmpty()){
             return null;
         }
-        else if(t == -1){
-            t = data.length-1;
-            return data[t];
-        }
         return data[t];
     }//end top
 
@@ -51,20 +53,10 @@ public class LeakyArrayStack<E> implements LeakStack<E> {
         if(isEmpty()){
             return null;
         }
-        else if (t == -1){
-            t = data.length-1;
-            E temp = data[t];
-            data[t] = null;
-            t--;
-            s--;
-            return temp;
-        }
-        else{
-            E temp = data[t];
-            data[t] = null;
-            t = (t-1)%data.length;
-            s--;
-            return temp;
-        }
+        E temp = data[t];
+        data[t] = null;
+        t = ((((t-1)%data.length) + data.length) % data.length);        //all this just to get modulus to work with negative numbers
+        s--;                                        //decrement size
+        return temp;
     }//end pop
 }
