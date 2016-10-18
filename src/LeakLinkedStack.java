@@ -2,9 +2,14 @@
  * Created by Youmin on 10/16/2016.
  */
 public class LeakLinkedStack<E> implements LeakStack<E>{
+    int MAX_SIZE = 5;
+    public LeakySinglyLLStack list = new LeakySinglyLLStack<>(MAX_SIZE);
 
-    public LeakySinglyLLStack list = new LeakySinglyLLStack<>();
-    public LeakLinkedStack(){}
+    public LeakLinkedStack(int capacity){
+        System.out.println("The capacity is " + capacity);
+        MAX_SIZE = capacity;
+        System.out.println("The maxi is " + MAX_SIZE);
+    }
 
     public int size(){
         return list.size();

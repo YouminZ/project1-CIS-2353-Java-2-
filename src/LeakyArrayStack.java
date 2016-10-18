@@ -29,7 +29,7 @@ public class LeakyArrayStack<E> implements LeakStack<E> {
 
     @Override
     public boolean isEmpty(){
-        return (size() == 0);
+        return (s == 0);
     }//end isEmpty
 
     @Override

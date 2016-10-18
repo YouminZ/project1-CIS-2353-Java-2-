@@ -28,7 +28,10 @@ public class LeakySinglyLLStack<E>{
     private Node<E> head = null;
     private Node<E> tail = null;
     private int size = 0;
-    public LeakySinglyLLStack(){
+    private int MAXIMUM_SIZE;
+    public LeakySinglyLLStack(int capacity){
+        MAXIMUM_SIZE = capacity;
+        System.out.println("The maximum is " + MAXIMUM_SIZE);
     }//end constructor
 
     //access methods
@@ -49,11 +52,14 @@ public class LeakySinglyLLStack<E>{
     }//end first
 
     public void addFirst(E e){
-        head = new Node<>(e, head);
-        if (size == 0){
-            tail = head;
+        if(size == MAXIMUM_SIZE){
+            head = new Node<>(e, head);
+            removeLast();
         }
-        size++;
+        else{
+            head = new Node<>(e, head);
+            size++;
+        }
     }//end addFirst
 
     public E removeFirst(){
@@ -67,5 +73,20 @@ public class LeakySinglyLLStack<E>{
             tail = null;
         }
         return answer;
-    }//end removeFirst
+        }//end removeFirst
+
+    private void removeLast(){
+        if(head == tail){
+            head = null;
+            tail = null;
+        }
+        else{
+            Node<E> prevToTail = head;
+            while(prevToTail.getNext() != tail){
+                prevToTail = prevToTail.getNext();
+            }
+            tail = prevToTail;
+            tail.setNext(null);
+        }
+    }//end removeLast
 }
