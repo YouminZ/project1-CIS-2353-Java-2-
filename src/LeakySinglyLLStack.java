@@ -81,11 +81,11 @@ public class LeakySinglyLLStack<E>{
             tail = null;
         }
         else{
-            Node<E> previousToTail = head;
-            while(previousToTail.getNext() != tail){
-                previousToTail = previousToTail.getNext();
+            Node<E> prevToTail = head;
+            while(prevToTail.getNext() != tail){
+                prevToTail = prevToTail.getNext();
             }
-            tail = previousToTail;
+            tail = prevToTail;
             tail.setNext(null);
         }
     }//end removeLast
