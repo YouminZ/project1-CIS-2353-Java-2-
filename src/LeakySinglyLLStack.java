@@ -31,7 +31,6 @@ public class LeakySinglyLLStack<E>{
     private int MAXIMUM_SIZE;
     public LeakySinglyLLStack(int capacity){
         MAXIMUM_SIZE = capacity;
-        System.out.println("The maximum is " + MAXIMUM_SIZE);
     }//end constructor
 
     //access methods
