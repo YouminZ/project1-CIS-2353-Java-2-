@@ -19,6 +19,7 @@ public class LeakyArrayStack<E> implements LeakStack<E> {
 
     //constructor to make a array stack with given capacity
     public LeakyArrayStack(int capacity){
+        System.out.println("The maximum data size is set to " + capacity);
         data = (E[]) new Object[capacity];
     }//end constructor
 

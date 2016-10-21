@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24ea7a46-e3b3-428b-b730-3a28becfaf82" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArrayStackDemo.java" afterPath="$PROJECT_DIR$/src/ArrayStackDemo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LeakLinkedStack.java" afterPath="$PROJECT_DIR$/src/LeakLinkedStack.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LeakyArrayStack.java" afterPath="$PROJECT_DIR$/src/LeakyArrayStack.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LeakySinglyLLStack.java" afterPath="$PROJECT_DIR$/src/LeakySinglyLLStack.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SinglyLLDemo.java" afterPath="$PROJECT_DIR$/src/SinglyLLDemo.java" />
     </list>
     <ignored path="project1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArrayStackDemo.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ArrayStackDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ArrayStackDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.07172996">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -40,8 +43,10 @@
         <entry file="file://$PROJECT_DIR$/src/SinglyLLDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
+              <caret line="3" column="57" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+              <folding>
+                <element signature="e#534#543#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,15 +61,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeakLinkedStack.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LeakLinkedStack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeakLinkedStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29173166">
-              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-              <folding>
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,11 +75,15 @@
         <entry file="file://$PROJECT_DIR$/src/LeakySinglyLLStack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+              <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
               <folding>
                 <element signature="class#Node#0;class#LeakySinglyLLStack#0" expanded="false" />
-                <element signature="e#864#865#0" expanded="true" />
-                <element signature="e#903#904#0" expanded="true" />
+                <element signature="e#965#966#0" expanded="true" />
+                <element signature="e#992#993#0" expanded="true" />
+                <element signature="method#first#0;class#LeakySinglyLLStack#0" expanded="false" />
+                <element signature="method#addFirst#0;class#LeakySinglyLLStack#0" expanded="false" />
+                <element signature="method#removeFirst#0;class#LeakySinglyLLStack#0" expanded="false" />
+                <element signature="method#removeLast#0;class#LeakySinglyLLStack#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -105,11 +111,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/ArrayStackDemo.java" />
         <option value="$PROJECT_DIR$/src/LeakStack.java" />
         <option value="$PROJECT_DIR$/src/LeakyArrayStack.java" />
-        <option value="$PROJECT_DIR$/src/SinglyLLDemo.java" />
+        <option value="$PROJECT_DIR$/src/ArrayStackDemo.java" />
         <option value="$PROJECT_DIR$/src/LeakySinglyLLStack.java" />
+        <option value="$PROJECT_DIR$/src/SinglyLLDemo.java" />
         <option value="$PROJECT_DIR$/src/LeakLinkedStack.java" />
       </list>
     </option>
@@ -738,16 +744,16 @@
       <workItem from="1476672873818" duration="10069000" />
       <workItem from="1476763887740" duration="22000" />
       <workItem from="1476764305206" duration="224000" />
-      <workItem from="1476765607447" duration="953000" />
+      <workItem from="1476765607447" duration="4294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28585000" />
+    <option name="totallyTimeSpent" value="31926000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -756,7 +762,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2829582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2079314" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12260128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -833,7 +839,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#534#543#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -849,10 +857,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-          <folding>
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -862,8 +867,12 @@
           <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
           <folding>
             <element signature="class#Node#0;class#LeakySinglyLLStack#0" expanded="false" />
-            <element signature="e#864#865#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="method#first#0;class#LeakySinglyLLStack#0" expanded="false" />
+            <element signature="method#addFirst#0;class#LeakySinglyLLStack#0" expanded="false" />
+            <element signature="method#removeFirst#0;class#LeakySinglyLLStack#0" expanded="false" />
+            <element signature="method#removeLast#0;class#LeakySinglyLLStack#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -880,7 +889,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#534#543#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -896,10 +907,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding>
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -909,8 +917,12 @@
           <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
           <folding>
             <element signature="class#Node#0;class#LeakySinglyLLStack#0" expanded="false" />
-            <element signature="e#864#865#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="method#first#0;class#LeakySinglyLLStack#0" expanded="false" />
+            <element signature="method#addFirst#0;class#LeakySinglyLLStack#0" expanded="false" />
+            <element signature="method#removeFirst#0;class#LeakySinglyLLStack#0" expanded="false" />
+            <element signature="method#removeLast#0;class#LeakySinglyLLStack#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -927,7 +939,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-          <folding />
+          <folding>
+            <element signature="e#534#543#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -943,10 +957,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding>
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -956,8 +967,12 @@
           <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
           <folding>
             <element signature="class#Node#0;class#LeakySinglyLLStack#0" expanded="false" />
-            <element signature="e#864#865#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="method#first#0;class#LeakySinglyLLStack#0" expanded="false" />
+            <element signature="method#addFirst#0;class#LeakySinglyLLStack#0" expanded="false" />
+            <element signature="method#removeFirst#0;class#LeakySinglyLLStack#0" expanded="false" />
+            <element signature="method#removeLast#0;class#LeakySinglyLLStack#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -983,8 +998,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
           <folding>
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1002,8 +1017,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
           <folding>
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1021,8 +1036,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1036,20 +1051,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeakyArrayStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3359375">
-          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-          <folding>
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.37974682">
+          <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArrayStackDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/SinglyLLDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
+          <caret line="3" column="57" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+          <folding>
+            <element signature="e#534#543#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1061,10 +1075,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SinglyLLDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/LeakLinkedStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -1072,23 +1086,24 @@
     <entry file="file://$PROJECT_DIR$/src/LeakySinglyLLStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
           <folding>
             <element signature="class#Node#0;class#LeakySinglyLLStack#0" expanded="false" />
-            <element signature="e#864#865#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="method#first#0;class#LeakySinglyLLStack#0" expanded="false" />
+            <element signature="method#addFirst#0;class#LeakySinglyLLStack#0" expanded="false" />
+            <element signature="method#removeFirst#0;class#LeakySinglyLLStack#0" expanded="false" />
+            <element signature="method#removeLast#0;class#LeakySinglyLLStack#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeakLinkedStack.java">
+    <entry file="file://$PROJECT_DIR$/src/ArrayStackDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29173166">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding>
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.07172996">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
